@@ -10,6 +10,7 @@ const HTTP_METHOD = {
       body: JSON.stringify(data),
     };
   },
+
   PUT(data) {
     return {
       method: "PUT",
